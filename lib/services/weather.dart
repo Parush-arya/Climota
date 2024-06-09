@@ -1,7 +1,7 @@
 import 'package:climota/services/networking.dart';
 import 'package:climota/services/location.dart';
-
-const appid = '2dca576b272550912794c8bd051593cd';
+//put your own appid here
+const appid = 'myappid';
 
 class WeatherModel {
   Future<dynamic> getCityWeather(String cityName) async {
